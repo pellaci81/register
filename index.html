@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WEB-PROGRAMOZÁS I</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+
+    <form name="regisztracio" action="php/feldolgoz.php" onsubmit="return check();" method="post">
+        <div>
+            <h1>WEB-PROGRAMOZÁS I</h1>
+            <h2>Regisztráció:</h2>
+            <img class="image" src="images/kep.jpg" alt="image" width="200px" height="200">
+
+            <label for="email">E-mail: </label><input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" maxlength="40"><br/>
+
+            <label for="nev">Név: </label><input type="text" id="nev" name="nev" size="30" minlength="5" maxlength="30" required><br/>
+
+            <label for="pwd">Jelszó: </label><input type="password" id="pwd" name="pwd" size="30" minlength="6" maxlength="12" required><br/>
+
+            <label for="kor">Kor: </label><input type="number" id="kor" name="kor" size="7" min="18" max="100" required><br/>
+
+            <label>Nem: </label>
+            <input type="radio" name="nem" value="Nő" required>
+            <label class="radiobtn">Nő: </label>
+
+            <input type="radio" name="nem" value="Férfi">
+            <label class="radiobtn">Férfi: </label>
+
+            <br/>
+
+            <input  id="kuld" type="submit" value="Küldés" onclick="check();">
+
+            <button onclick="check();" type="button">Ellenőriz</button>
+
+
+
+        </div>
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+h1 {
+	text-align: center;
+	}
+
+h2 {
+	margin-left: 30px;
+	}
+
+img.image {
+	float: right;
+	margin-right: 40px;
+	}
+
+div {
+	padding-top: 30px;
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	background-color: #99f;
+	}
+
+div.check {
+	background-color: #ffffff;
+	height: 200px;
+}
+
+input {
+	border: 2px #050505 solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	}
+
+
+
+select {
+	border: 2px #050505 solid;
+	padding: 3px;
+	}
+
+label {
+	width: 60px;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 2px;
+	}
+
+label.radiobtn {
+	width: 50px;
+
+	margin-left: -3px;
+	padding: 0px;
+}
+
+input[type="submit"] {
+	margin-left: 93px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	}
+
